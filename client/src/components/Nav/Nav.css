@@ -27,7 +27,10 @@
     letter-spacing: 2px;
     opacity: 0.9;
     width: 100%;
-} 
+    font-family:'Roboto Slab', serif;
+    text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+
+}
 
 /* changes words color of navbar */
 .navbar li a, .navbar .navbar-brand {
@@ -41,6 +44,7 @@
 .navbar-nav li.active a {
     color: #777 !important;
     background: white !important;
+
 }
 /* changes the button dropdown menu once in table mode */
 .navbar-default .navbar-toggle {
@@ -74,7 +78,7 @@
         font-size: 10px !important;
 
     }
-}     
+}
 
 /* 768px or less for tablets */
 
@@ -82,8 +86,6 @@
 /* @media only screen and (max-width: 768px) {
     .navbar{
         font-size: 10px !important;
-          
+
     }
 }   */
-
-
