@@ -43,20 +43,7 @@ const Bio = () => (
         </div>
         <div id="menu6" className="tab-pane fade">
             <h3>President: Joan Damon-Simon, MBA, RN, Texas</h3>
-                <p className="bioText"><img className="bioPic" src={require('./members/JoanDamon.png')}/>Joan Damon Simon, MBA, RN has over 46 years of nursing and healthcare experience. She
-                began her career in Pediatrics and worked her way through nursing leadership roles. Her senior
-                leadership career began as the first Administrator for The Methodist Hospital built in the
-                outlying community of Sugar Land, Texas. She moved into the Long-Term Acute Care arena as
-                CEO for 8 years and then served as CEO of a Rehab hospital.
-                Joan’s most recent position is Operations Manager, III for a 50 physician multi-specialty
-                outpatient clinic that is part of the Houston Methodist Specialty Physician Group. She also
-                serves as the R.N. for Dr. Richard Robbins, Chairman of the Department of Medicine, and
-                practicing endocrinologist specializing in thyroid cancer.
-                She has been a member of the Endocrine Nurses Society for almost six years. She is currently
-                serving as President and continues to support growth and educational opportunities for endocrine
-                nurses.
-                Joan is married to Harold Simon and has four grown children and three precious grandchildren.
-                Her hobbies include cooking, entertaining, and karaoke!</p>
+                <p className="bioText"><img className="bioPic" src={require('./members/JoanDamon.png')}/>Joan Damon Simon, MBA, RN has over 46 years of nursing and healthcare experience. She began her career in Pediatrics and worked her way through nursing leadership roles. Her senior leadership career began as the first Administrator for The Methodist Hospital built in the outlying community of Sugar Land, Texas. She moved into the Long-Term Acute Care arena as CEO for 8 years and then served as CEO of a Rehab hospital. Joan’s most recent position is Operations Manager, III for a 50 physician multi-specialty outpatient clinic that is part of the Houston Methodist Specialty Physician Group. She also serves as the R.N. for Dr. Richard Robbins, Chairman of the Department of Medicine, and practicing endocrinologist specializing in thyroid cancer. She has been a member of the Endocrine Nurses Society for almost six years. She is currently serving as President and continues to support growth and educational opportunities for endocrine nurses. Joan is married to Harold Simon and has four grown children and three precious grandchildren. Her hobbies include cooking, entertaining, and karaoke!</p>
         </div>
     </div>
 </div>
