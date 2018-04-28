@@ -24,11 +24,11 @@ const Education = () => (
             // <img className="CapeTown" src={require('./pic/cape.jpg')} alt="Cape Town" href="http://www.ice2018.org/" />
                 <p><strong>Symposium Content</strong></p>
                 // <p>Symposium Videos</p>
-            <button className="btn"><a href="http://www.ice2018.org/" target="_blank">Videos</a></button>
+            <button className="btn"><a href=" " target="_blank">Videos</a></button>
           </div>
         </div>
 </div>
 
 );
 
-export default Events;
+export default Education;

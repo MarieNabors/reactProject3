@@ -12,7 +12,7 @@ h1{
 
 .thumbnail p {
     color: black;
-   
+
 }
 
 .bg-1 {
@@ -44,16 +44,19 @@ h1{
     }
     h1{
         font-size: 25px;
+        font-family: 'Roboto Slab', serif;
     }
-}  
+}
 
 @media only screen and (max-width: 767px) {
     .col-sm-2{
         width: 50%;
         margin: 0 auto;
+        font-family: 'Roboto Slab', serif;
 
     }
     h1{
         font-size: 25px;
+        font-family: 'Roboto Slab', serif;
     }
-}  
+}
