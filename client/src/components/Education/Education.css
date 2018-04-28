@@ -1,0 +1,59 @@
+#events {
+    width: 100%;
+  }
+
+h1{
+    margin: 20px;
+}
+
+.thumbnail {
+    padding: 20px;
+}
+
+.thumbnail p {
+    color: black;
+
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+
+}
+.bg-1 h3 {color: pink;}
+.bg-1 p {font-style: italic;}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 0;
+    transition: .2s;
+    font-family: 'Roboto Slab', serif;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+@media only screen and ( max-width: 1200px) {
+    .col-sm-2{
+        width: 33.3%;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-2{
+        width: 50%;
+        margin: 0 auto;
+
+    }
+    h1{
+        font-size: 25px;
+    }
+}  

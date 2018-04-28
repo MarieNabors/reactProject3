@@ -15,6 +15,7 @@ render() {
   return (
     <Wrapper>
         <Nav />
+        <Education />
     //create new components and call them here
     //(education, professional development, etc.)
         <Footer />
