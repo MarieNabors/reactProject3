@@ -7,6 +7,22 @@
     width:100%;
 }
 
+
+.col-md-4 p {
+  color: grey;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+}
+#title {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+  text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+}
+.form-control {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+}
 /* .container {
     padding: 80px 120px;
     width: 100%;
@@ -22,5 +38,3 @@
         position: relative;
     }
 } */
-
-

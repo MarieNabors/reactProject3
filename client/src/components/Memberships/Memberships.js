@@ -9,9 +9,9 @@ const Membership = () => (
   <h2 className="text-center">MEMBERSHIP TYPES</h2>
     <ul className="nav nav-tabs">
         <li className="active tabText"><a data-toggle="tab" href="#home">Associate/1 Year</a></li>
-        <li className="tabText"><a data-toggle="tab" href="#menu6">Associate/2 Years</a></li>
-        <li className="tabText"><a data-toggle="tab" href="#menu2">RN 1 Year</a></li>
-        <li className="tabText"><a data-toggle="tab" href="#menu3">RN 2 Years</a></li>
+        <li className="tabText"><a data-toggle="tab" href="#menu2">Associate/2 Years</a></li>
+        <li className="tabText"><a data-toggle="tab" href="#menu3">RN 1 Year</a></li>
+          <li className="tabText"><a data-toggle="tab" href="#menu4">RN 2 Years</a></li>
     </ul>
 
     <div className="tab-content">
@@ -19,9 +19,7 @@ const Membership = () => (
             <h3>Associate (Non-RN) Annual Membership</h3>
                 <ul className="bioText">
                   <li>$100.00 (USD)</li>
-
-
-                <li>  Membership is recognized for one year from the date of membership activation.</li>
+                  <li>  Membership is recognized for one year from the date of membership activation.</li>
                 </ul>
         </div>
 
@@ -29,9 +27,7 @@ const Membership = () => (
             <h3>Associate (Non-RN) 2 Year Membership</h3>
                 <ul className="bioText">
               <li> $180.00 (USD)</li>
-
-
-                <li>Membership is recognized for 2 years form the date of membership activation.</li>
+              <li>Membership is recognized for 2 years form the date of membership activation.</li>
               </ul>
         </div>
 
@@ -39,8 +35,6 @@ const Membership = () => (
             <h3>Full RN Status ~ 1 Year Membership</h3>
                 <ul className="bioText">
                 <li>$100.00 (USD)</li>
-
-
                 <li>Membership is recognized for one year from the date of membership activation.</li>
                 </ul>
         </div>
@@ -48,9 +42,7 @@ const Membership = () => (
         <div id="menu4" className="tab-pane fade">
         <h3>Full RN Status ~ 2 Year Membership</h3>
             <ul className="bioText">
-            <li>Full (RN Status) One Year Membership - $100.00 (USD)</li>
-            <li>Subscription period: 2 years</li>
-            
+            <li>$180.00 (USD)</li>
             <li>Membership is recognized for two years from the date of membership activation.</li>
             </ul>
         </div>
