@@ -1,12 +1,4 @@
 
-
-/* .container-fluid {
-    background: #2d2d30;
-    font-size: 14px !important;
-    letter-spacing: 2px;
-} */
-
-
 /* changes logo size and */
 .navbar-brand{
     width:40px;
@@ -18,7 +10,19 @@
 .nav-tabs li a {
     color: #777;
 }
+.g-signin2 {
+  margin: 10px;
+  height: 20px;
+}
+#connected7i9mkri8ptsm {
 
+  border: 0;
+  font-size: 14px !important;
+  letter-spacing: 2px;
+  opacity: 1.0;
+  width: 100%;
+  /* font-family:'Roboto Slab', serif; */
+}
 .navbar {
     margin-bottom: 0;
     background: #2d2d30;
@@ -28,7 +32,7 @@
     opacity: 0.9;
     width: 100%;
     font-family:'Roboto Slab', serif;
-    text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+    /* text-shadow: -1px 0px 10px rgba(0, 0, 0, 1); */
 
 }
 
@@ -71,22 +75,8 @@
 
 
 /* 600px or less for  phones. */
-
-/* @media only screen and (min-width: 600px) {
-    .navbar{
-        font-size: 10px !important;
-
+@media only screen and (max-width: 768px) {
+    .navbar-collapse  {
+        margin-top: 50px;
     }
-}     
-
-/* 768px or less for tablets */
-
-
-/* @media only screen and (max-width: 768px) {
-    .navbar{
-        font-size: 10px !important;
-          
-    }
-}   */
-
-
+}

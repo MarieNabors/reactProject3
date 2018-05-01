@@ -1,12 +1,12 @@
 .carousel-inner img {
   /* -webkit-filter: grayscale(50%);
-  filter: grayscale(70%); /* make all photos black and white */ */
+  filter: grayscale(70%); /* make all photos black and white */ 
   width: 100%; /* Set width to 100% */
   margin: auto;
   background-blend-mode: lighten;
 }
 .carousel-caption {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 .carousel-caption h3 {
   font-size: 25px;
@@ -56,6 +56,9 @@ img {
   }
   .carousel-inner img{
     margin-top: 50px;
+  }
+  .carousel-caption {
+    margin-bottom: 10px;
   }
 
 }

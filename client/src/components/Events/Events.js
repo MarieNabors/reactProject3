@@ -2,8 +2,8 @@ import React from "react";
 import "./Events.css";
 
 const Events = () => (
-
-<div  className="bg-1">
+<div id="wrapper">
+<div  className="bg-1" id="newEvents" >
     <div className="container">
         <h1 className="text-center">ENS Upcoming Events</h1>
     </div>
@@ -34,8 +34,6 @@ const Events = () => (
             <button className="btn"><a href="https://www.globalacademycme.com/conferences/meds/register" target="_blank">INFO</a></button>
           </div>
         </div>
-   
-
 
         <div className="col-sm-2">
           <div className="thumbnail">
@@ -56,14 +54,23 @@ const Events = () => (
         </div>
 
         <div className="col-sm-2">
-          <div className="thumbnail">
+          <div className="thumbnail" id="capeTown">
             <img className="CapeTown" src={require('./pic/cape.jpg')} alt="Cape Town" href="http://www.ice2018.org/" />
                 <p><strong>Cape Town</strong></p>
                 <p>December 1-4</p>
             <button className="btn"><a href="http://www.ice2018.org/" target="_blank">INFO</a></button>
           </div>
         </div>
+        </div>
+
+<div id="googleMaps">
+<iframe id="map" src="//www.google.com/maps/embed/v1/place?q=Orlando,Florida%20Rd,%20UK&zoom=17&key=AIzaSyAXrqMvURLjB81mUXo6qWb4UyOAtHFqRNU">
+  </iframe>
 </div>
+</div>
+
+
+// <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 );
 
