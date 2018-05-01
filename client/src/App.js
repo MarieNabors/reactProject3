@@ -23,6 +23,7 @@ const App = () => (
         <Route exact path="/" component={}/>
         <Route exact path="/" component={}/> */}
         <Route component={NoMatch}/>
+        <Route exact path="www.endo-nurses.org/2018-Betsy-Love-McClung-Award" component={Nav}/>
       </Switch>
     </div>
   </Router>

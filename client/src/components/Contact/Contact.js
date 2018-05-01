@@ -5,13 +5,11 @@ import "./Contact.css";
 const Contact = () => (
 
 <div id="contact" className="container">
-	<h3 className="text-center" id="title">CONNECT WITH A NURSE</h3>
+	<h2 className="text-center" id="title">CONTACT US</h2>
 			<div className="row">
 				<div className="col-md-4">
 				<p>Reach out.</p>
-				<p><span className="glyphicon glyphicon-map-marker"></span>Orlando, US</p>
-				<p><span className="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-				<p><span className="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+				<p><span className="glyphicon glyphicon-envelope"></span>Email: endocrinenurses@gmail.com </p>
 			</div>
 			<div className="col-md-8">
 				<div className="row">
@@ -20,7 +18,7 @@ const Contact = () => (
 						<input className="form-control" id="name" name="name" placeholder="Name" type="text" required />
 								</div>
 								<div className="col-sm-6 form-group">
-									<input className="form-control" id="email" name="email" placeholder="Email" type="email" required />
+									<input className="form-control" id="email" name="email" placeholder="Your email" type="email" required />
 								</div>
 							</div>
 								<textarea className="form-control" id="comments" name="comments" placeholder="How can we help?" rows="5"></textarea>

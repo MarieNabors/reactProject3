@@ -20,14 +20,16 @@ const Nav = () => (
             <li><Link to="#myCarousel">HOME</Link></li>
             <li><Link to="#memberships">MEMBERSHIP</Link></li>
             <li><Link to="#newEvents">EVENTS</Link></li>
+            <li><Link to="#boardmembers">LEADERSHIP</Link></li>
             <li><Link to="#contact">CONTACT</Link></li>
+
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="">AWARDS
               <span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><Link to="www.endo-nurses.org/2018-ENS-Grant-Awards">ENS Poster Award</Link></li>
-                  <li><a href = "www.endo-nurses.org/2018-Betsy-Love-McClung-Award">Betsy Love McClung Award</a></li>
-                  <li><Link to="www.endo-nurses.org/page-1428935">Media</Link></li>
+                  <li><a href="www.endo-nurses.org/2018-ENS-Grant-Awards">ENS Poster Award</a></li>
+                  <li><a href="www.endo-nurses.org/2018-Betsy-Love-McClung-Award">Betsy Love McClung Award</a></li>
+                  <li><a href="www.endo-nurses.org/page-1428935">Media</a></li>
                 </ul>
             </li>
             <li className="dropdown">
@@ -39,7 +41,7 @@ const Nav = () => (
                   <li><Link to="/">Travel Grant Application</Link></li>
                 </ul>
             </li>
-            <li><a href="."><span className="glyphicon glyphicon-search"></span></a></li>
+            <li><a href="wwww.google.com"><span className="glyphicon glyphicon-search"></span></a></li>
           </ul>
         </div>
       </div>
