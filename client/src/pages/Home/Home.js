@@ -7,26 +7,33 @@ import Carousel from"../../components/Carousel";
 import Bio from "../../components/Bio";
 import { Container } from "../../components/Grid/Container";
 import Events from "../../components/Events";
+import Map from "../../components/Google";
+import Contact from "../../components/Contact"
+import Membership from "../../components/Memberships"
 
 
 
 class Home extends Component {
     state = {
-    
+
     };
 
     render() {
         return (
-    
+
             <Wrapper>
                 <Nav />
                     <Carousel />
                         <Container />
+                          <Membership />
                             <Events />
-                                <Bio />
-                                    <Footer /> 
+                                <Map />
+                                    <Bio />
+                                      <Contact />
+                                        <Footer />
+
             </Wrapper>
-            
+
         );
     }
 }

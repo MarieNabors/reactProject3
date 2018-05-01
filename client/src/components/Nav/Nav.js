@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "./Nav.css";
 
-
 const Nav = () => (
 
 <nav className="navbar navbar-default navbar-fixed-top">
@@ -18,18 +17,17 @@ const Nav = () => (
 
         <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="nav navbar-nav navbar-right">
-            <li className="g-signin2" data-onsuccess="onSignIn" data-height="30"></li>
             <li><Link to="/">HOME</Link></li>
-            <li><Link to="/">MEMBERSHIP</Link></li>
-            <li><Link to="/">EVENTS</Link></li>
-            <li><Link to="/">CONTACT</Link></li>
+            <li><Link to="#memberships">MEMBERSHIP</Link></li>
+            <li><Link to="#newEvents">EVENTS</Link></li>
+            <li><Link to="#contact">CONTACT</Link></li>
             <li className="dropdown">
-              <a className="dropdown-toggle" data-toggle="dropdown" href="#">AWARDS
+              <a className="dropdown-toggle" data-toggle="dropdown" href="">AWARDS
               <span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/">ENS Poster Award</Link></li>
-                  <li><Link to="/">Betsy Love McClung Award</Link></li>
-                  <li><Link to="/">Media</Link></li>
+                  <li><Link to="www.endo-nurses.org/2018-ENS-Grant-Awards">ENS Poster Award</Link></li>
+                  <li><a href = "www.endo-nurses.org/2018-Betsy-Love-McClung-Award">Betsy Love McClung Award</a></li>
+                  <li><Link to="www.endo-nurses.org/page-1428935">Media</Link></li>
                 </ul>
             </li>
             <li className="dropdown">

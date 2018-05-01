@@ -1,9 +1,22 @@
-#events {
-    width: 100%;
-  }
 
+
+#newEvents{
+  background: #70e1f5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:100%;
+  font-family: 'Roboto Slab', serif;
+}
+.text-center {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+  text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+
+}
 h1{
     margin: 20px;
+    color: #bdbdbd;
 }
 
 .thumbnail {
@@ -14,15 +27,9 @@ h1{
     color: black;
 
 }
-#capeTown{
-margin-bottom: 0px;
-}
-.bg-1 {
-  background: #70e1f5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width:100%;
 
+.bg-1 {
+    background: #2d2d30;
     color: #bdbdbd;
 
 }
@@ -43,27 +50,11 @@ margin-bottom: 0px;
     background-color: #fff;
     color: #000;
 }
-#map {
-  border-style: solid;
-  height: 50%;
-  width: 75%;
-  margin-top: 20px;
-}
-#wrapper {
-  width: 100%;
-}
-#googleMaps {
-  width: 100%;
+.wrapper {
   background: #70e1f5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.text-center {
-  font-family: 'Roboto Slab', serif;
-  letter-spacing: 4px;
-  text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
-  color: black;
+  width:100%;
 }
 @media only screen and ( max-width: 1200px) {
     .col-sm-2{

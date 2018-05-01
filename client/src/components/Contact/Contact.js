@@ -28,7 +28,7 @@ const Contact = () => (
 									<div className="row">
 										<div className="col-md-12 form-group">
 											<button className="btn pull-right" type="submit">Send</button>
-						</form> 
+								</div>
 						</div>
 			</div>
 		</div>
