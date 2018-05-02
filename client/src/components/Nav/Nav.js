@@ -18,6 +18,7 @@ const Nav = () => (
         <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="nav navbar-nav navbar-right">
             <li><Link to="#myCarousel">HOME</Link></li>
+              <li><Link to="#myCarousel">SPONSORS</Link></li>
             <li><Link to="#memberships">MEMBERSHIP</Link></li>
             <li><Link to="#newEvents">EVENTS</Link></li>
             <li><Link to="#boardmembers">LEADERSHIP</Link></li>
@@ -27,9 +28,9 @@ const Nav = () => (
               <a className="dropdown-toggle" data-toggle="dropdown" href="">AWARDS
               <span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a href="www.endo-nurses.org/2018-ENS-Grant-Awards">ENS Poster Award</a></li>
-                  <li><a href="www.endo-nurses.org/2018-Betsy-Love-McClung-Award">Betsy Love McClung Award</a></li>
-                  <li><a href="www.endo-nurses.org/page-1428935">Media</a></li>
+                  <li><a href="http://www.endo-nurses.org/2018-ENS-Grant-Awards">ENS Poster Award</a></li>
+                  <li><a href="http://www.endo-nurses.org/2018-Betsy-Love-McClung-Award">Betsy Love McClung Award</a></li>
+                  <li><a href="http://www.endo-nurses.org/page-1428935">Media</a></li>
                 </ul>
             </li>
             <li className="dropdown">
