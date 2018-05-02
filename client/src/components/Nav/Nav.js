@@ -18,11 +18,13 @@ const Nav = () => (
         <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="nav navbar-nav navbar-right">
             <li><Link to="#myCarousel">HOME</Link></li>
-              <li><Link to="#myCarousel">SPONSORS</Link></li>
+              <li><Link to="#">SPONSORS</Link></li>
             <li><Link to="#memberships">MEMBERSHIP</Link></li>
             <li><Link to="#newEvents">EVENTS</Link></li>
             <li><Link to="#boardmembers">LEADERSHIP</Link></li>
             <li><Link to="#contact">CONTACT</Link></li>
+            <li><Link to="#">MEMBERS<span className="glyphicon glyphicon-lock"></span></Link></li>
+
 
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="">AWARDS
