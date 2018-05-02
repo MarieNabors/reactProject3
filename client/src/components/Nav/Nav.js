@@ -36,9 +36,9 @@ const Nav = () => (
               <a className="dropdown-toggle" data-toggle="dropdown" href="#">GRANTS
               <span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/">Clinical Project Grant</Link></li>
-                  <li><Link to="/">Clinical Research Grant</Link></li>
-                  <li><Link to="/">Travel Grant Application</Link></li>
+                  <li><Link to="http://www.endo-nurses.org/ENS-2018">Clinical Project Grant</Link></li>
+                  <li><Link to="http://www.endo-nurses.org/ENS-2018">Clinical Research Grant</Link></li>
+                  <li><Link to="http://www.endo-nurses.org/2018-Travel-Grant-Application">Travel Grant Application</Link></li>
                 </ul>
             </li>
             <li><a href="wwww.google.com"><span className="glyphicon glyphicon-search"></span></a></li>
