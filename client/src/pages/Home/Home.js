@@ -27,7 +27,7 @@ class Home extends Component {
                         <Container />
                           <Membership />
                             <Events />
-                                // <Map />
+                              
                                     <Bio />
                                       <Contact />
                                         <Footer />
