@@ -6,6 +6,7 @@ import Jumbotron from "../../components/Jumbotron";
 import Footer from "../../components/Footer";
 import Wrapper from "../../components/Wrapper";
 import Carousel from"../../components/Carousel";
+import Exclusive from "../../components/Carousel";
 
 class MembersOnly extends Component {
   state = {
@@ -15,8 +16,7 @@ render() {
   return (
     <Wrapper>
         <Nav />
-    {/* create new components and call them here
-    (education, professional development, etc.) */}
+        <Exclusive />
         <Footer />
       </Wrapper>
   );
