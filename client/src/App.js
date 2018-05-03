@@ -26,6 +26,7 @@ const App = () => (
         <Route exact path="/" component={}/> */}
         <Route component={NoMatch}/>
         <Route exact path="www.endo-nurses.org/2018-Betsy-Love-McClung-Award" component={Nav}/>
+        <Route exact path="https://ens-final.herokuapp.com/" component={Nav}/>
       </Switch>
     </div>
   </Router>
