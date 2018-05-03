@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
 import HelpfulLinks from "./pages/HelpfulLinks";
 import Aboutus from "./pages/Aboutus";
+import MembersOnly from "./pages/MembersOnly";
 
 
 
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/" component={Home}/>
         <Route exact path="/helpfullinks" component={HelpfulLinks}/>
         <Route exact path="/aboutus" component={Aboutus}/>
+        <Route exact path="/MembersOnly" component={MembersOnly}/>
 
        {/* <Route exact path="/" component={}/>
         <Route exact path="/" component={}/>

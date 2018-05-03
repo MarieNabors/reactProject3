@@ -7,15 +7,8 @@ const Footer = () => (
 
 <footer>
   <div className="container">
-			<div className="row">
-				<div className="col-md-4">
-					<h3>About Us</h3>
-                        <p>Somthing here</p>
-                        <p>Somthing here</p>
-                        <p>Somthing here</p>
-				</div>
-				<div className="push"></div>
-				<div className="col-md-4" id="quickLinks">
+
+				<div className="col-md-6" id="quickLinks">
                     <ul>
                         <li><h3>Quick Links</h3></li>
 						<li><Link to="/aboutus">About Us</Link></li>
@@ -24,7 +17,7 @@ const Footer = () => (
 						<li><Link to="/helpfullinks">Links</Link></li>
                     </ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<ul>
                         <li><h3>Follow Us</h3></li>
 						<li><a href="https://www.twitter.com/" target="_blank"><i className="fa fa-twitter-square"></i><span>     Twitter</span></a></li>
@@ -39,7 +32,7 @@ const Footer = () => (
                     <p>&copy; 2018 Endocrine Nurses Society All Rights Reserved</p>
 				</div>
 			</div>
-		</div>
+		
 	</footer>
 
 );

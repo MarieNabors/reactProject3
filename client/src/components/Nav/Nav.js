@@ -23,7 +23,7 @@ const Nav = () => (
             <li><Link to="#newEvents">EVENTS</Link></li>
             <li><Link to="#boardmembers">LEADERSHIP</Link></li>
             <li><Link to="#contact">CONTACT</Link></li>
-            <li><Link to="#">MEMBERS<span className="glyphicon glyphicon-lock"></span></Link></li>
+            <li><Link to="/MembersOnly">MEMBERS<span className="glyphicon glyphicon-lock"></span></Link></li>
 
 
             <li className="dropdown">

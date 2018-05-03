@@ -28,6 +28,7 @@ class Home extends Component {
                           <Membership />
                             <Events />
 
+
                                     <Bio />
                                       <Contact />
                                         <Footer />
