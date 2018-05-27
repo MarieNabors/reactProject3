@@ -14,6 +14,7 @@ const Bio = () => (
         <li className="tabText"><a data-toggle="tab" href="#menu3">Kathryn</a></li>
         <li className="tabText"><a data-toggle="tab" href="#menu4">Daphne</a></li>
         <li className="tabText"><a data-toggle="tab" href="#menu5">Amy</a></li>
+        <li className="tabText"><a data-toggle="tab" href="#menu7">Michelle</a></li>
     </ul>
 
     <div className="tab-content">
@@ -44,6 +45,11 @@ const Bio = () => (
         <div id="menu6" className="tab-pane fade">
             <h3>President: Joan Damon-Simon, MBA, RN, Texas</h3>
                 <p className="bioText"><img className="bioPic" src={require('./members/JoanDamon.png')}/><br/>Joan Damon Simon, MBA, RN has over 46 years of nursing and healthcare experience. She began her career in Pediatrics and worked her way through nursing leadership roles. Her senior leadership career began as the first Administrator for The Methodist Hospital built in the outlying community of Sugar Land, Texas. She moved into the Long-Term Acute Care arena as CEO for 8 years and then served as CEO of a Rehab hospital. Joan’s most recent position is Operations Manager, III for a 50 physician multi-specialty outpatient clinic that is part of the Houston Methodist Specialty Physician Group. She also serves as the R.N. for Dr. Richard Robbins, Chairman of the Department of Medicine, and practicing endocrinologist specializing in thyroid cancer. She has been a member of the Endocrine Nurses Society for almost six years. She is currently serving as President and continues to support growth and educational opportunities for endocrine nurses. Joan is married to Harold Simon and has four grown children and three precious grandchildren. Her hobbies include cooking, entertaining, and karaoke!</p>
+        </div>
+        <div id="menu7" className="tab-pane fade">
+            <h3>Program Manager: Michelle Mims, RN4, Nashville, Tennessee</h3>
+                <p className="bioText"><img className="bioPic" src={require('./members/MichelleMims.jpg')}/><br/>Michele Hall Mims RN4 is the lead nurse in the Vanderbilt University Medical Center - Endocrine Surgery Center VUMC). She provides the best overall care for individuals with problems related to the endocrine and neuroendocrine system (the thyroid gland, parathyroid glands, adrenal glands, and entero/pancreatic system) in a clinical setting.
+                She completed the Duke University Durham North Caroline Master Course in Endocrine Surgery, Vanderbilt Evidence Based Nursing Practice Fellowship,  Vanderbilt Professional Nursing Practice Advancement Program Level IV and Endocrine Nurse Society Preceptee Program. She is a member of the American Association of Endocrine Surgeons, Endocrine Society, Endocrine Nurse Society (Program Chair),  Vanderbilt VMG Clinical Committee, Vanderbilt Professional Nursing Practice Advancement  Program Central Committee and a Mentor in  Vanderbilt Eskind Diabetes Clinic.</p>
         </div>
     </div>
 </div>
